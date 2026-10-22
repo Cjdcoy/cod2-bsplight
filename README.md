@@ -2,6 +2,10 @@
 
 Finds and fixes Call of Duty 2 maps whose models render rainbow-colored.
 
+| Before | After |
+| --- | --- |
+| ![Before: rainbow-lit hand and pistol](docs/before.png) | ![After: normally lit hand and pistol](docs/after.png) |
+
 ## The cause
 
 A map compiled without a light grid has BSP lumps 2 (grid entries) and 3
